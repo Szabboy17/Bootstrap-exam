@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    width: 1200px;
+    gap: 20px;
+    margin-bottom: 130px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:500px) {
+
+    .jumbotron{
+        width: 390px;
+        height: 1400px;
+        margin:0;
+        margin-left: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 18px;
+    }
+
+ 
+
+   
+    nav{
+        display: flex;
+        max-width: 400px;
+        max-height: 300px;
+    }
+    .cards{
+        width:390px;
+        display: block;
+        justify-content: center;
+    }
+    .row{
+        width: 985px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: -96px;
+        
+    }
+    
+   
+}
+
